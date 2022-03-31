@@ -1,0 +1,23 @@
+
+install app
+https://devcenter.heroku.com/articles/heroku-cli
+
+login app
+https://id.heroku.com/login
+
+
+https://dashboard.heroku.com/apps/flask-nexign/deploy/heroku-git
+https://flask-nexign.herokuapp.com
+
+
+Initialize a git repository in a new or existing directory
+
+$ cd my-project/
+$ git init
+$ heroku git:remote -a nx-flask
+Deploy your application
+Commit your code to the repository and deploy it to Heroku using Git.
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master

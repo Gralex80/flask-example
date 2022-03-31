@@ -1,0 +1,4 @@
+Зарускаем интерпритатор Python
+Вводим
+>>> import flask01_admin as app 
+>>> app.create_db()

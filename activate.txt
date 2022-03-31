@@ -1,0 +1,9 @@
+Создать окружение
+python -m venv venv
+
+Активируем окружение
+.\venv\Scripts\Activate.ps1
+
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
